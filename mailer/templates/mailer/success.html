@@ -1,0 +1,8 @@
+{% extends 'mailer/base.html' %}
+
+{% block body %}
+<div class="mx-auto my-4 text-center">
+    <h1 class="fw-bolder text-success">Email Sent</h1>
+    <p class="my-5">You can send another email in the <a href="{% url 'mailer:mailer' %}">contact page</a></p>
+</div>
+{% endblock %}l>

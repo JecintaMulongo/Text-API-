@@ -1,0 +1,18 @@
+\.idea/
+__pycache__/
+.env
+media/*
+env/
+
+
+# Environments
+TextAPI/.env
+main.py
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+nginx/

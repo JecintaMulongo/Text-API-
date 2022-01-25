@@ -1,0 +1,8 @@
+{% extends 'mailer/base.html' %}
+
+{% block body %}
+<div class="mx-auto my-4 text-center">
+    <h1 class="fw-bolder text-success">Spam Email Failed Sent</h1>
+    <p class="my-5">You can send another non spam email <a href="{% url 'mailer:mailer' %}">contact page</a></p>
+</div>
+{% endblock %}l>
